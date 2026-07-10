@@ -4,7 +4,7 @@ Welcome to my cybersecurity portfolio. This repository is a starting point for d
 
 ## About Me
 
-Hi, my name is [Your Name]. I am currently learning cybersecurity fundamentals with a focus on identity and access management, cloud security basics, databases, and practical analyst skills.
+Hi, my name is Ibrahim. I am currently learning cybersecurity fundamentals with a focus on identity and access management, cloud security basics, databases, and practical analyst skills.
 
 I am building this portfolio to show steady progress, hands-on practice, and my ability to explain security concepts clearly. My goal is to develop the skills needed for entry-level cybersecurity analyst, SOC analyst, IAM analyst, or cloud security support roles.
 
@@ -64,14 +64,15 @@ Suggested file: `projects/basic-iam-policy-review.md`
 
 ## Certifications and Coursework in Progress
 
+- Certifications: Security+, Google Cybersecurity Certificate
 - Sophia Learning coursework: active database and SQL learning
 - IAM learning: CyberKy / IAM learning platform exploration
 - Cloud fundamentals: Starting from Zero / Learn to Cloud study path
-- Future certification targets: Security+, Google Cybersecurity Certificate, AWS Cloud Practitioner, or Microsoft SC-900
+- Future certification targets: AWS Cloud Practitioner, Microsoft SC-900, Microsoft SC-300
 
 ## Portfolio Structure
 
-```text
+
 cybersecurity-portfolio-starter/
 ├── README.md
 ├── projects/
@@ -86,6 +87,6 @@ cybersecurity-portfolio-starter/
 
 ## Contact
 
-- GitHub: [Add your GitHub profile]
-- LinkedIn: [Add your LinkedIn profile]
-- Email: [Add your email]
+- GitHub: https://github.com/iahmad90
+- LinkedIn: www.linkedin.com/in/ibrahim-ahmad-b0b966267
+- Email: iahmad90@icloud.com
