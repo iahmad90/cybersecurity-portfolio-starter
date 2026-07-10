@@ -24,7 +24,5 @@ Use this file to track cybersecurity, cloud, SQL, and certification progress.
 
 ## Future Goals
 
-- Security+
-- Google Cybersecurity Certificate
 - AWS Cloud Practitioner
 - Microsoft SC-900
