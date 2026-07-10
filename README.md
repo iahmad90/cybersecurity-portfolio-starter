@@ -67,6 +67,12 @@ Review a simple example IAM policy or permission list. Identify overly broad acc
 
 Suggested file: `projects/basic-iam-policy-review.md`
 
+### 4. IAM Fundamentals: Access Control Concepts Applied
+
+Explain core IAM concepts including users, groups, roles, policies, authentication, authorization, MFA, and least privilege. Connect those concepts to practical security work such as access reviews, suspicious login investigations, and reducing unnecessary permissions.
+
+Project file: [projects/iam-fundamentals-access-control-concepts-applied.md](projects/iam-fundamentals-access-control-concepts-applied.md)
+
 ## Coursework in Progress
 
 - Sophia Learning coursework: active database and SQL learning
@@ -82,7 +88,8 @@ cybersecurity-portfolio-starter/
 ├── projects/
 │   ├── home-lab-network-security.md
 │   ├── phishing-email-analysis.md
-│   └── basic-iam-policy-review.md
+│   ├── basic-iam-policy-review.md
+│   └── iam-fundamentals-access-control-concepts-applied.md
 ├── writeups/
 │   └── writeup-template.md
 └── certs/
