@@ -2,6 +2,11 @@
 
 Welcome to my cybersecurity portfolio. This repository is a starting point for documenting my learning, labs, writeups, and beginner security projects as I build toward a cybersecurity analyst role.
 
+## Certifications
+
+- CompTIA Security+
+- Google Cybersecurity Certificate
+
 ## About Me
 
 Hi, my name is Ibrahim. I am currently learning cybersecurity fundamentals with a focus on identity and access management, cloud security basics, databases, and practical analyst skills.
@@ -62,9 +67,8 @@ Review a simple example IAM policy or permission list. Identify overly broad acc
 
 Suggested file: `projects/basic-iam-policy-review.md`
 
-## Certifications and Coursework in Progress
+## Coursework in Progress
 
-- Certifications: Security+, Google Cybersecurity Certificate
 - Sophia Learning coursework: active database and SQL learning
 - IAM learning: CyberKy / IAM learning platform exploration
 - Cloud fundamentals: Starting from Zero / Learn to Cloud study path
@@ -72,7 +76,7 @@ Suggested file: `projects/basic-iam-policy-review.md`
 
 ## Portfolio Structure
 
-
+```text
 cybersecurity-portfolio-starter/
 ├── README.md
 ├── projects/
