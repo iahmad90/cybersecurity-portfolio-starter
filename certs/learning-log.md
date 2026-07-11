@@ -13,7 +13,8 @@ Use this file to track cybersecurity, cloud, SQL, and certification progress.
 | Date | Course or Topic | Notes |
 | --- | --- | --- |
 | [Date] | [Course/topic] | [What you learned] |
-
+| 02/2026| Comptia Security+|
+| 03/2025| Google Cyber Security Certificate|
 ## In Progress
 
 | Course or Certification | Status | Next Step |
