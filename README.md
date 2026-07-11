@@ -1,11 +1,20 @@
 # Cybersecurity Portfolio
 
-Welcome to my cybersecurity portfolio. This repository is a starting point for documenting my learning, labs, writeups, and beginner security projects as I build toward a cybersecurity analyst role.
+![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-red)
+![Google Cybersecurity Certificate](https://img.shields.io/badge/Google-Cybersecurity%20Certificate-blue)
+![Focus](https://img.shields.io/badge/Focus-IAM%20%7C%20Cloud%20%7C%20SQL-green)
 
-## Certifications
+Welcome to my cybersecurity portfolio. This repository documents my learning, labs, writeups, and beginner security projects as I build toward a cybersecurity analyst role.
 
-- CompTIA Security+
-- Google Cybersecurity Certificate
+## Table of Contents
+
+- [About Me](#about-me)
+- [Certifications](#certifications)
+- [Skills](#skills)
+- [Projects Index](#projects-index)
+- [Coursework in Progress](#coursework-in-progress)
+- [Portfolio Structure](#portfolio-structure)
+- [Contact](#contact)
 
 ## About Me
 
@@ -13,7 +22,22 @@ Hi, my name is Ibrahim. I am currently learning cybersecurity fundamentals with 
 
 I am building this portfolio to show steady progress, hands-on practice, and my ability to explain security concepts clearly. My goal is to develop the skills needed for entry-level cybersecurity analyst, SOC analyst, IAM analyst, or cloud security support roles.
 
+## Certifications
+
+- CompTIA Security+
+- Google Cybersecurity Certificate
+
 ## Skills
+
+### Core Skills and Tools
+
+| Area | Current Focus |
+| --- | --- |
+| IAM basics | Users, groups, roles, permissions, MFA, authentication, authorization, least privilege, and access reviews |
+| Cloud fundamentals | Shared responsibility, cloud identity, storage exposure, network access, and beginner cloud security documentation |
+| PostgreSQL / SQL | SELECT, WHERE, JOIN, ORDER BY, table design, keys, constraints, and database security awareness |
+| Security analysis | Phishing indicators, risk documentation, incident writeup structure, and clear technical communication |
+| Certifications | CompTIA Security+ and Google Cybersecurity Certificate |
 
 ### Identity and Access Management
 
@@ -46,6 +70,18 @@ I am building this portfolio to show steady progress, hands-on practice, and my 
 - Incident writeup structure
 - Clear technical communication
 - Evidence-based research and reporting
+
+## Projects Index
+
+| Project | Status | Description |
+| --- | --- | --- |
+| [IAM Fundamentals: Access Control Concepts Applied](projects/iam-fundamentals-access-control-concepts-applied.md) | Completed | Explains users, groups, roles, policies, MFA, authentication, authorization, and least privilege in practical security terms. |
+| [IAM and Cloud Fundamentals Study Guide](iam-and-cloud-fundamentals-study-guide.md) | Completed | Study notes covering IAM, cloud models, shared responsibility, and beginner cloud security concepts. |
+| [Home Lab Network Security Writeup](projects/home-lab-network-security.md) | Planned | Document a basic home network diagram, identify common risks, and recommend simple security improvements. |
+| [Phishing Email Analysis Writeup](projects/phishing-email-analysis.md) | Planned | Analyze phishing indicators such as sender address, urgent language, links, attachments, grammar, and requested actions. |
+| [Basic IAM Policy Review](projects/basic-iam-policy-review.md) | Planned | Review an example permission list, identify overly broad access, and rewrite it using least privilege. |
+| [Cloud Fundamentals Writeup](projects/cloud-fundamentals-writeup.md) | Planned | Turn cloud learning notes into a portfolio writeup about cloud service models, shared responsibility, and basic security controls. |
+| [SQL / Database Security Project](projects/sql-database-security-project.md) | Planned | Show SQL and database learning through table design, constraints, queries, and notes about protecting sensitive data. |
 
 ## Projects
 
@@ -85,14 +121,20 @@ Project file: [projects/iam-fundamentals-access-control-concepts-applied.md](pro
 ```text
 cybersecurity-portfolio-starter/
 ├── README.md
+├── iam-and-cloud-fundamentals-study-guide.md
 ├── projects/
+│   ├── README.md
 │   ├── home-lab-network-security.md
 │   ├── phishing-email-analysis.md
 │   ├── basic-iam-policy-review.md
-│   └── iam-fundamentals-access-control-concepts-applied.md
+│   ├── iam-fundamentals-access-control-concepts-applied.md
+│   ├── cloud-fundamentals-writeup.md
+│   └── sql-database-security-project.md
 ├── writeups/
+│   ├── README.md
 │   └── writeup-template.md
 └── certs/
+    ├── README.md
     └── learning-log.md
 ```
 
