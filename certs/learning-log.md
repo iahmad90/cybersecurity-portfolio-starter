@@ -27,3 +27,4 @@ Use this file to track cybersecurity, cloud, SQL, and certification progress.
 
 - AWS Cloud Practitioner
 - Microsoft SC-900
+- Microsoft SC-300
