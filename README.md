@@ -77,9 +77,10 @@ I am building this portfolio to show steady progress, hands-on practice, and my 
 | --- | --- | --- |
 | [IAM Fundamentals: Access Control Concepts Applied](projects/iam-fundamentals-access-control-concepts-applied.md) | Completed | Explains users, groups, roles, policies, MFA, authentication, authorization, and least privilege in practical security terms. |
 | [IAM and Cloud Fundamentals Study Guide](iam-and-cloud-fundamentals-study-guide.md) | Completed | Study notes covering IAM, cloud models, shared responsibility, and beginner cloud security concepts. |
+| [Linux Homelab: Security Monitoring and Network Segmentation](projects/linux-homelab.md) | Planned | Plans a security-focused Linux homelab with pfSense, a hardened Linux server, Wazuh or Security Onion monitoring, and segmented networks. |
 | [Home Lab Network Security Writeup](projects/home-lab-network-security.md) | Planned | Document a basic home network diagram, identify common risks, and recommend simple security improvements. |
 | [Phishing Email Analysis Writeup](projects/phishing-email-analysis.md) | Planned | Analyze phishing indicators such as sender address, urgent language, links, attachments, grammar, and requested actions. |
-| [Basic IAM Policy Review](projects/basic-iam-policy-review.md) | Planned | Review an example permission list, identify overly broad access, and rewrite it using least privilege. |
+| [Basic IAM Policy Review](projects/basic-iam-policy-review.md) | Planned | Review an example permission list, identify overly broad access, explain the risk, and rewrite it using least privilege. |
 | [Cloud Fundamentals Writeup](projects/cloud-fundamentals-writeup.md) | Planned | Turn cloud learning notes into a portfolio writeup about cloud service models, shared responsibility, and basic security controls. |
 | [SQL / Database Security Project](projects/sql-database-security-project.md) | Planned | Show SQL and database learning through table design, constraints, queries, and notes about protecting sensitive data. |
 
@@ -109,6 +110,12 @@ Explain core IAM concepts including users, groups, roles, policies, authenticati
 
 Project file: [projects/iam-fundamentals-access-control-concepts-applied.md](projects/iam-fundamentals-access-control-concepts-applied.md)
 
+### 5. Linux Homelab: Security Monitoring and Network Segmentation
+
+Plan a hands-on Linux homelab with a hypervisor, pfSense firewall, hardened Linux server, basic SIEM monitoring, and segmented networks.
+
+Project file: [projects/linux-homelab.md](projects/linux-homelab.md)
+
 ## Coursework in Progress
 
 - Sophia Learning coursework: active database and SQL learning
@@ -128,6 +135,7 @@ cybersecurity-portfolio-starter/
 │   ├── phishing-email-analysis.md
 │   ├── basic-iam-policy-review.md
 │   ├── iam-fundamentals-access-control-concepts-applied.md
+│   ├── linux-homelab.md
 │   ├── cloud-fundamentals-writeup.md
 │   └── sql-database-security-project.md
 ├── writeups/
