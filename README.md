@@ -76,11 +76,12 @@ I am building this portfolio to show steady progress, hands-on practice, and my 
 | Project | Status | Description |
 | --- | --- | --- |
 | [IAM Fundamentals: Access Control Concepts Applied](projects/iam-fundamentals-access-control-concepts-applied.md) | Completed | Explains users, groups, roles, policies, MFA, authentication, authorization, and least privilege in practical security terms. |
+| [CyberArk PAM Fundamentals: Privileged Access Concepts Applied](projects/cyberark-pam-fundamentals.md) | Completed | Explains privileged accounts, vaulting, Safes, password rotation, session isolation, CyberArk components, and PAM auditability. |
 | [IAM and Cloud Fundamentals Study Guide](iam-and-cloud-fundamentals-study-guide.md) | Completed | Study notes covering IAM, cloud models, shared responsibility, and beginner cloud security concepts. |
 | [Linux Homelab: Security Monitoring and Network Segmentation](projects/linux-homelab.md) | Planned | Plans a security-focused Linux homelab with pfSense, a hardened Linux server, Wazuh or Security Onion monitoring, and segmented networks. |
 | [Home Lab Network Security Writeup](projects/home-lab-network-security.md) | Planned | Document a basic home network diagram, identify common risks, and recommend simple security improvements. |
 | [Phishing Email Analysis Writeup](projects/phishing-email-analysis.md) | Planned | Analyze phishing indicators such as sender address, urgent language, links, attachments, grammar, and requested actions. |
-| [Basic IAM Policy Review](projects/basic-iam-policy-review.md) | Planned | Review an example permission list, identify overly broad access, explain the risk, and rewrite it using least privilege. |
+| [Basic IAM Policy Review](projects/basic-iam-policy-review.md) | Planned | Review an example permission list, identify overly broad access, and rewrite it using least privilege. |
 | [Cloud Fundamentals Writeup](projects/cloud-fundamentals-writeup.md) | Planned | Turn cloud learning notes into a portfolio writeup about cloud service models, shared responsibility, and basic security controls. |
 | [SQL / Database Security Project](projects/sql-database-security-project.md) | Planned | Show SQL and database learning through table design, constraints, queries, and notes about protecting sensitive data. |
 
@@ -116,6 +117,12 @@ Plan a hands-on Linux homelab with a hypervisor, pfSense firewall, hardened Linu
 
 Project file: [projects/linux-homelab.md](projects/linux-homelab.md)
 
+### 6. CyberArk PAM Fundamentals: Privileged Access Concepts Applied
+
+Explain core PAM concepts including privileged accounts, credential vaulting, Safes, CyberArk Vault, CPM, PVWA, PSM, password rotation, session isolation, least privilege, and auditability. Connect those concepts to IAM/PAM analyst work such as access reviews, privileged session monitoring, and reducing risk from powerful accounts.
+
+Project file: [projects/cyberark-pam-fundamentals.md](projects/cyberark-pam-fundamentals.md)
+
 ## Coursework in Progress
 
 - Sophia Learning coursework: active database and SQL learning
@@ -136,6 +143,7 @@ cybersecurity-portfolio-starter/
 │   ├── basic-iam-policy-review.md
 │   ├── iam-fundamentals-access-control-concepts-applied.md
 │   ├── linux-homelab.md
+│   ├── cyberark-pam-fundamentals.md
 │   ├── cloud-fundamentals-writeup.md
 │   └── sql-database-security-project.md
 ├── writeups/
