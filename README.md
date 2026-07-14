@@ -2,7 +2,7 @@
 
 ![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-red)
 ![Google Cybersecurity Certificate](https://img.shields.io/badge/Google-Cybersecurity%20Certificate-blue)
-![Focus](https://img.shields.io/badge/Focus-IAM%20%7C%20Cloud%20%7C%20SQL-green)
+![Focus](https://img.shields.io/badge/Focus-IAM%20%7C%20Cloud%20%7C%20AI%20Security-green)
 
 Welcome to my cybersecurity portfolio. This repository documents my learning, labs, writeups, and beginner security projects as I build toward a cybersecurity analyst role.
 
@@ -35,6 +35,7 @@ I am building this portfolio to show steady progress, hands-on practice, and my 
 | --- | --- |
 | IAM basics | Users, groups, roles, permissions, MFA, authentication, authorization, least privilege, and access reviews |
 | Cloud fundamentals | Shared responsibility, cloud identity, storage exposure, network access, and beginner cloud security documentation |
+| AI security | Entra ID, managed identity, least privilege, prompt-injection defense, sensitive-data controls, and privacy-safe logging |
 | PostgreSQL / SQL | SELECT, WHERE, JOIN, ORDER BY, table design, keys, constraints, and database security awareness |
 | Security analysis | Phishing indicators, risk documentation, incident writeup structure, and clear technical communication |
 | Certifications | CompTIA Security+ and Google Cybersecurity Certificate |
@@ -79,6 +80,7 @@ I am building this portfolio to show steady progress, hands-on practice, and my 
 | [CyberArk PAM Fundamentals: Privileged Access Concepts Applied](projects/cyberark-pam-fundamentals.md) | Completed | Explains privileged accounts, vaulting, Safes, password rotation, session isolation, CyberArk components, and PAM auditability. |
 | [Microsoft Entra ID IAM Lab: Least Privilege, MFA, and Access Reviews](projects/entra-id-iam-lab.md) | Completed | Shows users, groups, least privilege, Conditional Access MFA planning, access reviews, and privileged-role safety in Microsoft Entra ID. |
 | [IAM LDAP and Group Policy Lab: Directory Access Controls](projects/iam-ldap-group-policy-lab.md) | Completed | Covers LDAP directory structure, security groups, GPO-based IAM controls, policy processing, and access troubleshooting. |
+| [AI Security Lab: Entra ID, Least Privilege, and LLM Guardrails](projects/ai-security-entra-llm-lab/README.md) | Completed | Builds a Python AI security gateway with managed identity, resource-scoped RBAC, prompt-injection detection, sensitive-data controls, sanitized logging, and automated tests. |
 | [IAM and Cloud Fundamentals Study Guide](iam-and-cloud-fundamentals-study-guide.md) | Completed | Study notes covering IAM, cloud models, shared responsibility, and beginner cloud security concepts. |
 | [Linux Homelab: Security Monitoring and Network Segmentation](projects/linux-homelab.md) | Planned | Plans a security-focused Linux homelab with pfSense, a hardened Linux server, Wazuh or Security Onion monitoring, and segmented networks. |
 | [Home Lab Network Security Writeup](projects/home-lab-network-security.md) | Planned | Document a basic home network diagram, identify common risks, and recommend simple security improvements. |
@@ -137,6 +139,12 @@ Document an Active Directory IAM lab covering LDAP directory structure, organiza
 
 Project file: [projects/iam-ldap-group-policy-lab.md](projects/iam-ldap-group-policy-lab.md)
 
+### 9. AI Security Lab: Entra ID, Least Privilege, and LLM Guardrails
+
+Build a runnable Python security gateway for a generative AI application. The lab combines Entra ID application roles, passwordless Azure managed identity, resource-scoped RBAC, prompt-injection controls, sensitive-data detection, output redaction, privacy-safe audit logging, Docker hardening, and automated tests.
+
+Project folder: [projects/ai-security-entra-llm-lab](projects/ai-security-entra-llm-lab/README.md)
+
 ## Coursework in Progress
 
 - Sophia Learning coursework: active database and SQL learning
@@ -160,6 +168,7 @@ cybersecurity-portfolio-starter/
 │   ├── cyberark-pam-fundamentals.md
 │   ├── entra-id-iam-lab.md
 │   ├── iam-ldap-group-policy-lab.md
+│   ├── ai-security-entra-llm-lab/
 │   ├── cloud-fundamentals-writeup.md
 │   └── sql-database-security-project.md
 ├── writeups/

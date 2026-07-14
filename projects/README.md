@@ -8,6 +8,7 @@ This folder contains cybersecurity portfolio projects and planned writeups.
 | [CyberArk PAM Fundamentals: Privileged Access Concepts Applied](cyberark-pam-fundamentals.md) | Completed | Demonstrates PAM knowledge by explaining privileged accounts, CyberArk components, password rotation, session isolation, and auditability. |
 | [Microsoft Entra ID IAM Lab: Least Privilege, MFA, and Access Reviews](entra-id-iam-lab.md) | Completed | Shows users, groups, least privilege, Conditional Access MFA planning, and access review documentation in Microsoft Entra ID. |
 | [IAM LDAP and Group Policy Lab: Directory Access Controls](iam-ldap-group-policy-lab.md) | Completed | Documents LDAP directory structure, group-based access, GPO enforcement, and troubleshooting for identity and policy issues. |
+| [AI Security Lab: Entra ID, Least Privilege, and LLM Guardrails](ai-security-entra-llm-lab/README.md) | Completed | Demonstrates managed identity, resource-scoped Azure RBAC, prompt-injection defense, sensitive-data controls, sanitized logging, and automated security tests. |
 | [Linux Homelab: Security Monitoring and Network Segmentation](linux-homelab.md) | Planned | Plans a security-focused Linux lab with pfSense, Linux hardening, SIEM monitoring, and segmented networks. |
 | [Home Lab Network Security Writeup](home-lab-network-security.md) | Planned | Documents home network risks and beginner hardening recommendations. |
 | [Phishing Email Analysis Writeup](phishing-email-analysis.md) | Planned | Shows basic phishing analysis and user-facing recommendations. |
