@@ -77,6 +77,8 @@ I am building this portfolio to show steady progress, hands-on practice, and my 
 | --- | --- | --- |
 | [IAM Fundamentals: Access Control Concepts Applied](projects/iam-fundamentals-access-control-concepts-applied.md) | Completed | Explains users, groups, roles, policies, MFA, authentication, authorization, and least privilege in practical security terms. |
 | [CyberArk PAM Fundamentals: Privileged Access Concepts Applied](projects/cyberark-pam-fundamentals.md) | Completed | Explains privileged accounts, vaulting, Safes, password rotation, session isolation, CyberArk components, and PAM auditability. |
+| [Microsoft Entra ID IAM Lab: Least Privilege, MFA, and Access Reviews](projects/entra-id-iam-lab.md) | Completed | Shows users, groups, least privilege, Conditional Access MFA planning, access reviews, and privileged-role safety in Microsoft Entra ID. |
+| [IAM LDAP and Group Policy Lab: Directory Access Controls](projects/iam-ldap-group-policy-lab.md) | Completed | Covers LDAP directory structure, security groups, GPO-based IAM controls, policy processing, and access troubleshooting. |
 | [IAM and Cloud Fundamentals Study Guide](iam-and-cloud-fundamentals-study-guide.md) | Completed | Study notes covering IAM, cloud models, shared responsibility, and beginner cloud security concepts. |
 | [Linux Homelab: Security Monitoring and Network Segmentation](projects/linux-homelab.md) | Planned | Plans a security-focused Linux homelab with pfSense, a hardened Linux server, Wazuh or Security Onion monitoring, and segmented networks. |
 | [Home Lab Network Security Writeup](projects/home-lab-network-security.md) | Planned | Document a basic home network diagram, identify common risks, and recommend simple security improvements. |
@@ -123,6 +125,18 @@ Explain core PAM concepts including privileged accounts, credential vaulting, Sa
 
 Project file: [projects/cyberark-pam-fundamentals.md](projects/cyberark-pam-fundamentals.md)
 
+### 7. Microsoft Entra ID IAM Lab: Least Privilege, MFA, and Access Reviews
+
+Build a practical Microsoft Entra ID identity lab with test users, job-based security groups, least-privilege decisions, Conditional Access MFA planning, access review documentation, and privileged-role safety notes.
+
+Project file: [projects/entra-id-iam-lab.md](projects/entra-id-iam-lab.md)
+
+### 8. IAM LDAP and Group Policy Lab: Directory Access Controls
+
+Document an Active Directory IAM lab covering LDAP directory structure, organizational units, security groups, Group Policy enforcement, least privilege, and troubleshooting for access or policy failures.
+
+Project file: [projects/iam-ldap-group-policy-lab.md](projects/iam-ldap-group-policy-lab.md)
+
 ## Coursework in Progress
 
 - Sophia Learning coursework: active database and SQL learning
@@ -144,6 +158,8 @@ cybersecurity-portfolio-starter/
 │   ├── iam-fundamentals-access-control-concepts-applied.md
 │   ├── linux-homelab.md
 │   ├── cyberark-pam-fundamentals.md
+│   ├── entra-id-iam-lab.md
+│   ├── iam-ldap-group-policy-lab.md
 │   ├── cloud-fundamentals-writeup.md
 │   └── sql-database-security-project.md
 ├── writeups/
