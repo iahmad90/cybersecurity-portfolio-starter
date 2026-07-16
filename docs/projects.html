@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cybersecurity projects by Ibrahim Ahmad covering IAM, PAM, Microsoft Entra ID, cloud security, and AI security.">
+    <title>Projects | Ibrahim Ahmad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Ibrahim Ahmad home">
+        <span class="brand-mark" aria-hidden="true">IA</span>
+        <span>Ibrahim Ahmad</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a class="active" href="projects.html">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-intro">
+        <p class="eyebrow">Hands-on learning</p>
+        <h1>Security projects built to connect concepts with practical work.</h1>
+        <p>Each project below links to its original repository writeup, where I document the objective, approach, security decisions, and lessons learned.</p>
+      </section>
+
+      <section class="section projects-list" aria-labelledby="projects-heading">
+        <h2 class="sr-only" id="projects-heading">Portfolio projects</h2>
+        <div class="project-grid">
+          <article class="project-card project-card-large">
+            <div class="project-meta"><span class="status completed">Completed</span><span>Python · FastAPI · PAM</span></div>
+            <h3>PAM Vault Simulator</h3>
+            <p>Models a privileged credential lifecycle with vault storage, account-level authorization, exclusive time-limited checkout, owner-controlled check-in, mock rotation, separation of duties, and a security audit trail.</p>
+            <div class="project-links">
+              <a href="https://github.com/iahmad90/cybersecurity-portfolio-starter/tree/main/projects/pam-vault-simulator">Project files <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/iahmad90/cybersecurity-portfolio-starter/blob/main/projects/pam-vault-simulator/BUILD-NOTES.md">Build notes <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card project-card-large">
+            <div class="project-meta"><span class="status completed">Completed</span><span>Python · Entra ID · AI Security</span></div>
+            <h3>AI Security Lab</h3>
+            <p>A runnable security gateway for generative AI that applies application roles, managed identity, resource-scoped RBAC, prompt-injection defense, sensitive-data controls, output redaction, and privacy-safe logging.</p>
+            <div class="project-links">
+              <a href="https://github.com/iahmad90/cybersecurity-portfolio-starter/tree/main/projects/ai-security-entra-llm-lab">Project files <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/iahmad90/cybersecurity-portfolio-starter/blob/main/projects/ai-security-entra-llm-lab/BUILD-NOTES.md">Build journal <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card project-card-large">
+            <div class="project-meta"><span class="status completed">Completed</span><span>Microsoft Entra ID · IAM</span></div>
+            <h3>Microsoft Entra ID IAM Lab</h3>
+            <p>Documents a practical identity lab with test users, job-based security groups, least-privilege decisions, Conditional Access MFA planning, access review documentation, and privileged-role safety notes.</p>
+            <a href="https://github.com/iahmad90/cybersecurity-portfolio-starter/blob/main/projects/entra-id-iam-lab.md">Read writeup <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card project-card-large">
+            <div class="project-meta"><span class="status completed">Completed</span><span>LDAP · Active Directory · GPO</span></div>
+            <h3>IAM LDAP and Group Policy Lab</h3>
+            <p>Covers LDAP directory structure, organizational units, security groups, Group Policy enforcement, least privilege, and troubleshooting access or policy failures.</p>
+            <a href="https://github.com/iahmad90/cybersecurity-portfolio-starter/blob/main/projects/iam-ldap-group-policy-lab.md">Read writeup <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card project-card-large">
+            <div class="project-meta"><span class="status completed">Completed</span><span>CyberArk · PAM</span></div>
+            <h3>CyberArk PAM Fundamentals</h3>
+            <p>Explains privileged accounts, credential vaulting, Safes, CyberArk Vault, CPM, PVWA, PSM, password rotation, session isolation, least privilege, and auditability in practical workplace language.</p>
+            <a href="https://github.com/iahmad90/cybersecurity-portfolio-starter/blob/main/projects/cyberark-pam-fundamentals.md">Read writeup <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card project-card-large">
+            <div class="project-meta"><span class="status completed">Completed</span><span>Identity · Access Control</span></div>
+            <h3>IAM Fundamentals</h3>
+            <p>Connects users, groups, roles, policies, authentication, authorization, MFA, and least privilege to access reviews, suspicious login investigations, and reducing unnecessary permissions.</p>
+            <a href="https://github.com/iahmad90/cybersecurity-portfolio-starter/blob/main/projects/iam-fundamentals-access-control-concepts-applied.md">Read writeup <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card project-card-large">
+            <div class="project-meta"><span class="status planned">Planned</span><span>Linux · pfSense · SIEM</span></div>
+            <h3>Linux Homelab</h3>
+            <p>Plans a security-focused homelab with a hypervisor, pfSense firewall, hardened Linux server, segmented networks, and basic SIEM monitoring.</p>
+            <a href="https://github.com/iahmad90/cybersecurity-portfolio-starter/blob/main/projects/linux-homelab.md">Read lab plan <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section repository-callout">
+        <div>
+          <p class="eyebrow">Full repository</p>
+          <h2>Study guides, learning logs, tests, and source code</h2>
+        </div>
+        <a class="button button-primary" href="https://github.com/iahmad90/cybersecurity-portfolio-starter">Browse on GitHub</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Ibrahim Ahmad</p>
+      <p>Identity · Cloud · PAM · AI Security</p>
+    </footer>
+  </body>
+</html>
