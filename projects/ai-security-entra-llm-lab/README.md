@@ -8,7 +8,7 @@ The application runs locally without an Azure subscription. It also includes an 
 
 This project is designed for entry-level IAM Analyst, Junior Cloud Security Analyst, Application Security Analyst, and AI Security Analyst roles.
 
-For a step-by-step explanation of how the project was designed and implemented, see [How I Built the AI Security Lab](BUILD-NOTES.md).
+For a step-by-step explanation of how the project was designed and implemented, see [How I Built the AI Security Lab](BUILD-NOTES.md). For interview practice, see [AI Security Lab Interview Questions and Answers](INTERVIEW-QUESTIONS.md).
 
 ## Security Objectives
 
@@ -72,6 +72,7 @@ ai-security-entra-llm-lab/
 ├── .env.example
 ├── .gitignore
 ├── BUILD-NOTES.md
+├── INTERVIEW-QUESTIONS.md
 ├── Dockerfile
 ├── pytest.ini
 ├── README.md
