@@ -81,11 +81,12 @@ I am building this portfolio to show steady progress, hands-on practice, and my 
 | [Microsoft Entra ID IAM Lab: Least Privilege, MFA, and Access Reviews](projects/entra-id-iam-lab.md) | Completed | Shows users, groups, least privilege, Conditional Access MFA planning, access reviews, and privileged-role safety in Microsoft Entra ID. |
 | [IAM LDAP and Group Policy Lab: Directory Access Controls](projects/iam-ldap-group-policy-lab.md) | Completed | Covers LDAP directory structure, security groups, GPO-based IAM controls, policy processing, and access troubleshooting. |
 | [AI Security Lab: Entra ID, Least Privilege, and LLM Guardrails](projects/ai-security-entra-llm-lab/README.md) | Completed | Builds a Python AI security gateway with managed identity, resource-scoped RBAC, prompt-injection detection, sensitive-data controls, sanitized logging, and automated tests. |
+| [PAM Vault Simulator: Credential Checkout, Rotation, and Audit](projects/pam-vault-simulator/README.md) | Completed | Builds a FastAPI PAM workflow with account-level authorization, time-limited credential leases, check-in rotation, audit logging, and automated tests. |
 | [IAM and Cloud Fundamentals Study Guide](iam-and-cloud-fundamentals-study-guide.md) | Completed | Study notes covering IAM, cloud models, shared responsibility, and beginner cloud security concepts. |
 | [Linux Homelab: Security Monitoring and Network Segmentation](projects/linux-homelab.md) | Planned | Plans a security-focused Linux homelab with pfSense, a hardened Linux server, Wazuh or Security Onion monitoring, and segmented networks. |
 | [Home Lab Network Security Writeup](projects/home-lab-network-security.md) | Planned | Document a basic home network diagram, identify common risks, and recommend simple security improvements. |
 | [Phishing Email Analysis Writeup](projects/phishing-email-analysis.md) | Planned | Analyze phishing indicators such as sender address, urgent language, links, attachments, grammar, and requested actions. |
-| [Basic IAM Policy Review](projects/basic-iam-policy-review.md) | Planned | Review an example permission list, identify overly broad access, and rewrite it using least privilege. |
+| [Basic IAM Policy Review](projects/basic-iam-policy-review.md) | Planned | Review an example permission list, identify overly broad access, and rewrite it using least privilege where possible. |
 | [Cloud Fundamentals Writeup](projects/cloud-fundamentals-writeup.md) | Planned | Turn cloud learning notes into a portfolio writeup about cloud service models, shared responsibility, and basic security controls. |
 | [SQL / Database Security Project](projects/sql-database-security-project.md) | Planned | Show SQL and database learning through table design, constraints, queries, and notes about protecting sensitive data. |
 
@@ -145,6 +146,12 @@ Build a runnable Python security gateway for a generative AI application. The la
 
 Project folder: [projects/ai-security-entra-llm-lab](projects/ai-security-entra-llm-lab/README.md)
 
+### 10. PAM Vault Simulator: Credential Checkout, Rotation, and Audit
+
+Build a runnable local PAM service that models privileged credential vaulting, account-level least privilege, exclusive time-limited checkout, owner-controlled check-in, mock credential rotation, separation of duties, and security auditing.
+
+Project folder: [projects/pam-vault-simulator](projects/pam-vault-simulator/README.md)
+
 ## Coursework in Progress
 
 - Sophia Learning coursework: active database and SQL learning
@@ -169,6 +176,7 @@ cybersecurity-portfolio-starter/
 │   ├── entra-id-iam-lab.md
 │   ├── iam-ldap-group-policy-lab.md
 │   ├── ai-security-entra-llm-lab/
+│   ├── pam-vault-simulator/
 │   ├── cloud-fundamentals-writeup.md
 │   └── sql-database-security-project.md
 ├── writeups/
