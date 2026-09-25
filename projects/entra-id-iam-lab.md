@@ -1,8 +1,10 @@
-# Microsoft Entra ID IAM Lab: Least Privilege, MFA, and Access Reviews
+# Microsoft Entra ID IAM Lab Design: Least Privilege, MFA, and Access Reviews
+
+**Status: Design writeup.** This file contains a proposed lab scenario, control decisions, and validation checklist. It does not document a completed Microsoft Entra tenant build or include live-tenant evidence; the steps below are a plan to execute with test identities.
 
 ## Summary
 
-This lab demonstrates a beginner-friendly Microsoft Entra ID identity and access management workflow. The goal is to show how a small organization can create users and groups, assign access based on job role, require MFA for sensitive access, review group membership, and document least-privilege decisions.
+This design describes a beginner-friendly Microsoft Entra ID identity and access management workflow. It shows how a small organization could create users and groups, assign access based on job role, require MFA for sensitive access, review group membership, and document least-privilege decisions.
 
 This project is designed for entry-level IAM Analyst, User Access Management Analyst, SOC Analyst, and Junior Cloud Security Analyst roles.
 
@@ -260,22 +262,20 @@ Before adding screenshots to GitHub:
 - Access reviews help confirm users still need access over time.
 - Privileged administrator roles should be limited because they can affect many users and security settings.
 
-## How This Maps To Job Roles
+## How This Design Maps To Job Roles
 
-| Job Role | Lab Evidence |
+| Job Role | Written Design Evidence |
 | --- | --- |
-| IAM Analyst | Users, groups, access reviews, least privilege |
-| User Access Management Analyst | Provisioning, deprovisioning, group membership review |
-| SOC Analyst | MFA, suspicious access risk, account misuse awareness |
-| Junior Cloud Security Analyst | Cloud identity controls and Conditional Access |
-| Help Desk / IT Support | User account basics and access troubleshooting |
+| IAM Analyst | User/group model, access-review plan, least-privilege decisions |
+| User Access Management Analyst | Proposed user-to-group assignment and access-review flow |
+| SOC Analyst | MFA design and account-misuse risk discussion |
+| Junior Cloud Security Analyst | Conditional Access and cloud identity policy design |
+| Help Desk / IT Support | User-account and access-troubleshooting guidance |
 
-## Resume Bullets From This Lab
+## Accurate Portfolio Summary
 
-- Built a Microsoft Entra ID IAM Lab using test users, security groups, MFA policy design, and access review documentation.
-- Applied least privilege by mapping users to job-based groups and removing unnecessary contractor access.
-- Documented Conditional Access MFA requirements for sensitive HR, Finance, IT Support, and Security Reviewer groups.
-- Created an access review checklist to support identity governance and audit readiness.
+- Documented a Microsoft Entra ID IAM lab design with test-user and security-group mappings, least-privilege decisions, Conditional Access MFA policy design, and an access-review workflow.
+- Outlined validation steps for a future test-tenant build; tenant execution and screenshots remain future work.
 
 ## Next Improvements
 

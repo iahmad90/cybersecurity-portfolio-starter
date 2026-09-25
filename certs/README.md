@@ -8,8 +8,10 @@
 - CompTIA Security+
 - Google Cybersecurity Certificate
 
-## Certification Notes
+## In Progress — Study Only
 
-These certifications support the portfolio focus on cybersecurity fundamentals, risk awareness, identity and access management, security operations basics, and clear technical communication.
+- Microsoft Identity and Access Administrator (SC-300)
+- CyberArk Defender - PAM
+- Red Hat Certified System Administrator (RHCSA / EX200)
 
-Use [learning-log.md](learning-log.md) to track ongoing coursework, labs, and future certification goals.
+These are study goals, not earned certifications. The [learning log](learning-log.md) tracks the current focus; no exam date is claimed.

@@ -1,5 +1,7 @@
 # IAM LDAP and Group Policy Lab: Directory Access Controls
 
+**Status: Design writeup.** This file describes a proposed directory and policy lab. No Active Directory domain, LDAP service, or GPO is implemented in this repository.
+
 ## Overview
 
 This lab explains how LDAP, Active Directory objects, security groups, and Group Policy Objects (GPOs) work together to manage identity and access in a Windows domain.
@@ -41,7 +43,7 @@ DC=example,DC=local
 
 This separates identities and devices by purpose and provides clear locations for delegated management and policy links.
 
-## Steps Taken
+## Design Work
 
 ### 1. Reviewed LDAP Directory Structure
 
