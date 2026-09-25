@@ -1,30 +1,18 @@
 # Learning Log
 
-Use this file to track cybersecurity, cloud, SQL, and certification progress.
+This log separates earned credentials from current certification study. In-progress study does not mean an exam is scheduled or a credential is earned.
 
-## Current Learning
+## Earned Certifications
 
-- Sophia Learning database and SQL coursework
-- IAM fundamentals through CyberKy or other IAM learning resources
-- Cloud basics through Learn to Cloud or similar beginner paths
+| Credential | Status |
+| --- | --- |
+| CompTIA Security+ | Earned |
+| Google Cybersecurity Certificate | Earned |
 
-## Completed
+## In Progress — Study Only
 
-| Date | Course or Topic | Notes |
+| Certification study | Status | Current next step |
 | --- | --- | --- |
-| [Date] | [Course/topic] | [What you learned] |
-| 02/2026| Comptia Security+|
-| 03/2025| Google Cyber Security Certificate|
-## In Progress
-
-| Course or Certification | Status | Next Step |
-| --- | --- | --- |
-| Sophia Learning Database/SQL coursework | In progress | Continue current unit |
-| IAM fundamentals | In progress | Document one IAM project |
-| Cloud security basics | In progress | Build one beginner cloud notes writeup |
-
-## Future Goals
-
-- AWS Cloud Practitioner
-- Microsoft SC-900
-- Microsoft SC-300
+| Microsoft Identity and Access Administrator (SC-300) | Studying | Continue practice and review weak domains |
+| CyberArk Defender - PAM | Studying | Continue exam-topic review and practice |
+| Red Hat Certified System Administrator (RHCSA / EX200) | Studying | Continue hands-on command-line practice |

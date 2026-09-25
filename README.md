@@ -1,194 +1,67 @@
-# Cybersecurity Portfolio
+# Ibrahim Ahmad | Junior IAM Portfolio
 
-![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-red)
-![Google Cybersecurity Certificate](https://img.shields.io/badge/Google-Cybersecurity%20Certificate-blue)
-![Focus](https://img.shields.io/badge/Focus-IAM%20%7C%20Cloud%20%7C%20AI%20Security-green)
+**Junior IAM / Cloud Identity Candidate · CompTIA Security+ · Google Cybersecurity Certificate**
 
-Welcome to my cybersecurity portfolio. This repository documents my learning, labs, writeups, and beginner security projects as I build toward a cybersecurity analyst role.
+I focus on identity and access management, privileged access, and cloud identity controls. This portfolio leads with two runnable, tested Python projects—a PAM credential-checkout simulator and an AI-security gateway—followed by clearly labeled Entra ID, Active Directory, LDAP, and Group Policy design writeups. The design documents are not claims of live tenant or domain implementation.
 
-## Table of Contents
+[Live portfolio](https://iahmad90.github.io/cybersecurity-portfolio-starter/) · [Projects](docs/projects.html) · [GitHub](https://github.com/iahmad90) · [LinkedIn](https://www.linkedin.com/in/ibrahim-ahmad-b0b966267) · [Email](mailto:iahmad90@icloud.com)
 
-- [About Me](#about-me)
-- [Certifications](#certifications)
-- [Skills](#skills)
-- [Projects Index](#projects-index)
-- [Coursework in Progress](#coursework-in-progress)
-- [Portfolio Structure](#portfolio-structure)
-- [Contact](#contact)
+## Credentials
 
-## About Me
-
-Hi, my name is Ibrahim. I am currently learning cybersecurity fundamentals with a focus on identity and access management, cloud security basics, databases, and practical analyst skills.
-
-I am building this portfolio to show steady progress, hands-on practice, and my ability to explain security concepts clearly. My goal is to develop the skills needed for entry-level cybersecurity analyst, SOC analyst, IAM analyst, or cloud security support roles.
-
-## Certifications
-
-- CompTIA Security+
-- Google Cybersecurity Certificate
-
-## Skills
-
-### Core Skills and Tools
-
-| Area | Current Focus |
+| Status | Credential |
 | --- | --- |
-| IAM basics | Users, groups, roles, permissions, MFA, authentication, authorization, least privilege, and access reviews |
-| Cloud fundamentals | Shared responsibility, cloud identity, storage exposure, network access, and beginner cloud security documentation |
-| AI security | Entra ID, managed identity, least privilege, prompt-injection defense, sensitive-data controls, and privacy-safe logging |
-| PostgreSQL / SQL | SELECT, WHERE, JOIN, ORDER BY, table design, keys, constraints, and database security awareness |
-| Security analysis | Phishing indicators, risk documentation, incident writeup structure, and clear technical communication |
-| Certifications | CompTIA Security+ and Google Cybersecurity Certificate |
+| Earned | CompTIA Security+ |
+| Earned | Google Cybersecurity Certificate |
+| In progress — study | Microsoft Identity and Access Administrator (SC-300) |
+| In progress — study | CyberArk Defender - PAM |
+| In progress — study | Red Hat Certified System Administrator (RHCSA / EX200) |
 
-### Identity and Access Management
+See the [certification and learning log](certs/learning-log.md) for the current study focus. No in-progress item is presented as an earned credential.
 
-- Understanding users, groups, roles, and permissions
-- Basic access review concepts
-- Principle of least privilege
-- Authentication and authorization basics
-- IAM policy review and documentation
+## Selected Work
 
-### Cloud Security Basics
-
-- Shared responsibility model
-- Basic cloud identity and access controls
-- Storage and permission risks
-- Security groups, network access, and public exposure concepts
-- Beginner cloud lab documentation
-
-### SQL and Databases
-
-- SQL fundamentals: SELECT, WHERE, JOIN, ORDER BY
-- Table design basics
-- Primary keys, foreign keys, and constraints
-- Understanding how databases store and protect sensitive information
-- Active coursework through Sophia Learning as evidence of continued learning
-
-### Security Analysis
-
-- Basic phishing indicators
-- Threat and risk documentation
-- Incident writeup structure
-- Clear technical communication
-- Evidence-based research and reporting
-
-## Projects Index
-
-| Project | Status | Description |
+| Project | Evidence status | Skills and signals shown |
 | --- | --- | --- |
-| [IAM Fundamentals: Access Control Concepts Applied](projects/iam-fundamentals-access-control-concepts-applied.md) | Completed | Explains users, groups, roles, policies, MFA, authentication, authorization, and least privilege in practical security terms. |
-| [CyberArk PAM Fundamentals: Privileged Access Concepts Applied](projects/cyberark-pam-fundamentals.md) | Completed | Explains privileged accounts, vaulting, Safes, password rotation, session isolation, CyberArk components, and PAM auditability. |
-| [Microsoft Entra ID IAM Lab: Least Privilege, MFA, and Access Reviews](projects/entra-id-iam-lab.md) | Completed | Shows users, groups, least privilege, Conditional Access MFA planning, access reviews, and privileged-role safety in Microsoft Entra ID. |
-| [IAM LDAP and Group Policy Lab: Directory Access Controls](projects/iam-ldap-group-policy-lab.md) | Completed | Covers LDAP directory structure, security groups, GPO-based IAM controls, policy processing, and access troubleshooting. |
-| [AI Security Lab: Entra ID, Least Privilege, and LLM Guardrails](projects/ai-security-entra-llm-lab/README.md) | Completed | Builds a Python AI security gateway with managed identity, resource-scoped RBAC, prompt-injection detection, sensitive-data controls, sanitized logging, and automated tests. |
-| [PAM Vault Simulator: Credential Checkout, Rotation, and Audit](projects/pam-vault-simulator/README.md) | Completed | Builds a FastAPI PAM workflow with account-level authorization, time-limited credential leases, check-in rotation, audit logging, and automated tests. |
-| [IAM and Cloud Fundamentals Study Guide](iam-and-cloud-fundamentals-study-guide.md) | Completed | Study notes covering IAM, cloud models, shared responsibility, and beginner cloud security concepts. |
-| [Linux Homelab: Security Monitoring and Network Segmentation](projects/linux-homelab.md) | Planned | Plans a security-focused Linux homelab with pfSense, a hardened Linux server, Wazuh or Security Onion monitoring, and segmented networks. |
-| [Home Lab Network Security Writeup](projects/home-lab-network-security.md) | Planned | Document a basic home network diagram, identify common risks, and recommend simple security improvements. |
-| [Phishing Email Analysis Writeup](projects/phishing-email-analysis.md) | Planned | Analyze phishing indicators such as sender address, urgent language, links, attachments, grammar, and requested actions. |
-| [Basic IAM Policy Review](projects/basic-iam-policy-review.md) | Planned | Review an example permission list, identify overly broad access, and rewrite it using least privilege where possible. |
-| [Cloud Fundamentals Writeup](projects/cloud-fundamentals-writeup.md) | Planned | Turn cloud learning notes into a portfolio writeup about cloud service models, shared responsibility, and basic security controls. |
-| [SQL / Database Security Project](projects/sql-database-security-project.md) | Planned | Show SQL and database learning through table design, constraints, queries, and notes about protecting sensitive data. |
+| [PAM Vault Simulator](projects/pam-vault-simulator/README.md) | Built and tested | Privileged access, account-level authorization, time-limited checkout, mock credential rotation, audit events, Python, FastAPI, pytest |
+| [AI Security Gateway](projects/ai-security-entra-llm-lab/README.md) | Built and tested locally; Azure deployment not claimed | Application-role checks, an Entra-authentication integration path, least-privilege workload RBAC design, data handling, privacy-safe audit events, Python, pytest |
+| [Entra ID IAM Lab Design](projects/entra-id-iam-lab.md) | Design writeup; no live tenant evidence | Test-user and group model, least-privilege decisions, Conditional Access MFA policy design, access-review workflow |
+| [LDAP and Group Policy Lab Design](projects/iam-ldap-group-policy-lab.md) | Design writeup; no AD domain implementation claimed | Active Directory and LDAP concepts, group-based access, GPO scope, directory troubleshooting |
+| [CyberArk PAM Fundamentals](projects/cyberark-pam-fundamentals.md) | Concept writeup | Vault and Safe concepts, CPM/PVWA/PSM roles, privileged-account lifecycle, rotation, auditing |
+| [IAM Fundamentals](projects/iam-fundamentals-access-control-concepts-applied.md) | Concept writeup | Authentication vs. authorization, MFA, groups, roles, least privilege, access-review fundamentals |
+| [Linux Homelab](projects/linux-homelab.md) | Planned; not built | Proposed Linux hardening, network segmentation, firewalling, and monitoring work |
+| [Home Lab Network Security](projects/home-lab-network-security.md) | Blank template; no assessment evidence | No skills claimed until a real configuration is documented |
+| [Phishing Email Analysis](projects/phishing-email-analysis.md) | Blank template; no sample analysis | No analysis result claimed |
+| [Basic IAM Policy Review](projects/basic-iam-policy-review.md) | Blank template; no policy reviewed | No access-review result claimed |
+| [Cloud Fundamentals Writeup](projects/cloud-fundamentals-writeup.md) | Planned | Study-guide material exists; a distinct project writeup is not complete |
+| [SQL / Database Security Project](projects/sql-database-security-project.md) | Planned | A separate project and results are not complete |
 
-## Projects
+The two runnable projects are the strongest implementation evidence. The Entra ID and LDAP/Group Policy documents show design and explanation, not completed provisioning in Microsoft Entra ID or Active Directory.
 
-### 1. Home Lab Network Security Writeup
+## Role-Skill Fit
 
-Document a basic home network diagram, identify common devices, explain potential risks, and list simple security improvements such as stronger Wi-Fi settings, router updates, and device inventory.
+The recent 10-posting comparison most often mentioned account lifecycle/provisioning and directory platforms (9 of 10 each). MFA and access reviews/recertification appeared in 5 of 10; SSO/federation and SailPoint appeared in 4 of 10; PAM appeared in 2 of 10. The sample is directional—not a market-wide statistic—and includes one employer-portal posting plus nine clearly identified LinkedIn job-board copies.
 
-Suggested file: `projects/home-lab-network-security.md`
+This repository shows identity concepts, access-control design, PAM workflow modeling, and audit logging. It does **not yet** demonstrate a completed joiner-mover-leaver workflow, a working SailPoint or ServiceNow environment, or live Entra ID/Active Directory administration. See [the posting sample and sources](output/postings-used.md) for scope and links.
 
-### 2. Phishing Email Analysis Writeup
+## Run the Flagship Projects
 
-Analyze a sample phishing email and document suspicious indicators such as sender address, urgent language, links, attachments, grammar issues, and requested actions. Finish with a short recommendation for the user or organization.
+Each project has setup instructions, limitations, and tests:
 
-Suggested file: `projects/phishing-email-analysis.md`
+- [PAM Vault Simulator](projects/pam-vault-simulator/README.md)
+- [AI Security Gateway](projects/ai-security-entra-llm-lab/README.md)
 
-### 3. Basic IAM Policy Review
+Both labs use local demo identities and test data; neither is a production IAM or PAM platform. Their GitHub Actions workflows run the project-specific pytest suites.
 
-Review a simple example IAM policy or permission list. Identify overly broad access, explain the risk, and rewrite the permissions using least privilege where possible.
+## Study and Reference Material
 
-Suggested file: `projects/basic-iam-policy-review.md`
-
-### 4. IAM Fundamentals: Access Control Concepts Applied
-
-Explain core IAM concepts including users, groups, roles, policies, authentication, authorization, MFA, and least privilege. Connect those concepts to practical security work such as access reviews, suspicious login investigations, and reducing unnecessary permissions.
-
-Project file: [projects/iam-fundamentals-access-control-concepts-applied.md](projects/iam-fundamentals-access-control-concepts-applied.md)
-
-### 5. Linux Homelab: Security Monitoring and Network Segmentation
-
-Plan a hands-on Linux homelab with a hypervisor, pfSense firewall, hardened Linux server, basic SIEM monitoring, and segmented networks.
-
-Project file: [projects/linux-homelab.md](projects/linux-homelab.md)
-
-### 6. CyberArk PAM Fundamentals: Privileged Access Concepts Applied
-
-Explain core PAM concepts including privileged accounts, credential vaulting, Safes, CyberArk Vault, CPM, PVWA, PSM, password rotation, session isolation, least privilege, and auditability. Connect those concepts to IAM/PAM analyst work such as access reviews, privileged session monitoring, and reducing risk from powerful accounts.
-
-Project file: [projects/cyberark-pam-fundamentals.md](projects/cyberark-pam-fundamentals.md)
-
-### 7. Microsoft Entra ID IAM Lab: Least Privilege, MFA, and Access Reviews
-
-Build a practical Microsoft Entra ID identity lab with test users, job-based security groups, least-privilege decisions, Conditional Access MFA planning, access review documentation, and privileged-role safety notes.
-
-Project file: [projects/entra-id-iam-lab.md](projects/entra-id-iam-lab.md)
-
-### 8. IAM LDAP and Group Policy Lab: Directory Access Controls
-
-Document an Active Directory IAM lab covering LDAP directory structure, organizational units, security groups, Group Policy enforcement, least privilege, and troubleshooting for access or policy failures.
-
-Project file: [projects/iam-ldap-group-policy-lab.md](projects/iam-ldap-group-policy-lab.md)
-
-### 9. AI Security Lab: Entra ID, Least Privilege, and LLM Guardrails
-
-Build a runnable Python security gateway for a generative AI application. The lab combines Entra ID application roles, passwordless Azure managed identity, resource-scoped RBAC, prompt-injection controls, sensitive-data detection, output redaction, privacy-safe audit logging, Docker hardening, and automated tests.
-
-Project folder: [projects/ai-security-entra-llm-lab](projects/ai-security-entra-llm-lab/README.md)
-
-### 10. PAM Vault Simulator: Credential Checkout, Rotation, and Audit
-
-Build a runnable local PAM service that models privileged credential vaulting, account-level least privilege, exclusive time-limited checkout, owner-controlled check-in, mock credential rotation, separation of duties, and security auditing.
-
-Project folder: [projects/pam-vault-simulator](projects/pam-vault-simulator/README.md)
-
-## Coursework in Progress
-
-- Sophia Learning coursework: active database and SQL learning
-- IAM learning: CyberKy / IAM learning platform exploration
-- Cloud fundamentals: Starting from Zero / Learn to Cloud study path
-- Future certification targets: AWS Cloud Practitioner, Microsoft SC-900, Microsoft SC-300
-
-## Portfolio Structure
-
-```text
-cybersecurity-portfolio-starter/
-├── README.md
-├── iam-and-cloud-fundamentals-study-guide.md
-├── projects/
-│   ├── README.md
-│   ├── home-lab-network-security.md
-│   ├── phishing-email-analysis.md
-│   ├── basic-iam-policy-review.md
-│   ├── iam-fundamentals-access-control-concepts-applied.md
-│   ├── linux-homelab.md
-│   ├── cyberark-pam-fundamentals.md
-│   ├── entra-id-iam-lab.md
-│   ├── iam-ldap-group-policy-lab.md
-│   ├── ai-security-entra-llm-lab/
-│   ├── pam-vault-simulator/
-│   ├── cloud-fundamentals-writeup.md
-│   └── sql-database-security-project.md
-├── writeups/
-│   ├── README.md
-│   └── writeup-template.md
-└── certs/
-    ├── README.md
-    └── learning-log.md
-```
+- [IAM and Cloud Fundamentals Study Guide](iam-and-cloud-fundamentals-study-guide.md)
+- [CyberArk Defender PAM Study Guide](study-guides/CYBERARK_PAM_STUDY_GUIDE.md)
+- [IAM and Cloud Security Mock Interview](interview-prep/MOCK_INTERVIEW.md)
+- [Project writeup template](writeups/writeup-template.md)
+- [Hiring-manager review and scorecard](output/portfolio-review.md)
 
 ## Contact
 
-- GitHub: https://github.com/iahmad90
-- LinkedIn: www.linkedin.com/in/ibrahim-ahmad-b0b966267
-- Email: iahmad90@icloud.com
+- GitHub: [github.com/iahmad90](https://github.com/iahmad90)
+- LinkedIn: [linkedin.com/in/ibrahim-ahmad-b0b966267](https://www.linkedin.com/in/ibrahim-ahmad-b0b966267)
+- Email: [iahmad90@icloud.com](mailto:iahmad90@icloud.com)

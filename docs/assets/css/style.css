@@ -138,7 +138,10 @@ h3 { margin-bottom: 14px; font-size: 1.35rem; letter-spacing: -.025em; }
 .project-meta { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 28px; color: var(--muted); font: .68rem "IBM Plex Mono", monospace; }
 .status { padding: 4px 8px; border-radius: 999px; text-transform: uppercase; }
 .status.completed { color: var(--accent); background: rgba(99,230,180,.1); }
+.status.writeup { color: var(--blue); background: rgba(139,184,255,.1); }
+.status.in-progress { color: var(--blue); background: rgba(139,184,255,.1); }
 .status.planned { color: var(--warning); background: rgba(243,200,117,.1); }
+.credential-progress { margin: 18px 0 0; color: var(--muted); }
 .contact-section, .repository-callout { display: grid; grid-template-columns: minmax(0,1.2fr) minmax(300px,.8fr); align-items: center; gap: 70px; }
 .contact-links { display: grid; }
 .contact-links a { display: flex; justify-content: space-between; gap: 20px; padding: 18px 0; border-bottom: 1px solid var(--border); font-weight: 700; text-decoration: none; }
